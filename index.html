@@ -1,52 +1,40 @@
-Skip to content
-DEV Community
-Powered by  Algolia
-Log in
-Create account
-
-
-0
-Jump to Comments
-
-
-0
-Save
-
-
-Boost
-
-Codewithrandom Blogs
-Codewithrandom Blogs
-Posted on 26 May 2023
-
-4
-Gym Website Using HTML ,CSS and JavaScript (Source Code)
-Hello everyone. You will discover how to create a Gym Website using HTML, CSS, and Javascript in this article. By the end of this article, you will be able to build your own website because we will be starting from scratch on this project and teaching you every HTML, CSS, and JavaScript concept.
-
-To lead a happy and long life, one must be physically and mentally fit. One of the best ways to maintain good health is through exercise. Therefore, no matter how busy you are, it is always best to find a workout routine. Many people are now aware of the value of exercise due to the prevalence of diseases today. The best exercise regimen will specifically benefit a person's physical, mental, and social well-being.
-
-As a result, exercise will help you have more energy, lower your risk of developing chronic diseases, lose weight, and enhance your memory and brain function. With these benefits, working out will probably become enjoyable for you soon. Fortunately, you don't have to do it on your own because a variety of personal trainers or certified fitness instructors offer the assistance you require. Additionally, enrolling in fitness classes is simple. Today, we will use HTML, CSS, and javascript to create our own gym website.
-
-I hope you have a general idea of what the project entails. In our article, we will go over this project step by step.
-
-Step1: Adding HTML Markup
+<!-- Step1: Adding HTML Markup -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PGC-GYM Landing Page</title>
-    <!-- Ion Icons Js -->
-    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
-    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
-    <!-- JS -->
-    <!-- CSS -->
+    <link rel="stylesheet" href="gym.css">
+    <title>HourGlass Fitness</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+
+    <header>
+
+        <a href="#home" class="logo"> HourGlass <span>Fitness</span></a>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#plans">Pricing</a></li>
+            <li><a href="#review">Review</a></li>
+        </ul>
+
+    </header>
+
+    
+
+
+
+
+
+
+
+
     <!-- Menu -->
     <div class="menu">
         <div class="container flex">
@@ -58,12 +46,7 @@ Step1: Adding HTML Markup
                 <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/logo.png" alt="" />
             </div>
 
-            <ul class="nav">
-                <li class="nav-item"><a href="#">Home</a></li>
-                <li class="nav-item"><a href="#why-us">Features</a></li>
-                <li class="nav-item"><a href="#explore">Explore</a></li>
-                <li class="nav-item"><a href="#discount">Register</a></li>
-            </ul>
+           
 
             <a href="#" class="btn">Register</a>
         </div>
